@@ -1,0 +1,19 @@
+version: "3.1"
+
+stories:
+
+# cbt 적용
+- story: 스토리2:발표할 때 사람들이 나를 하찮게 보는 것 같아
+  steps:
+  - intent: start_chatbot_cbt
+  - action: utter_start_chatbot_cbt
+  - intent: story_SneeringToMe
+  - action: action_story_SneeringToMe
+  - intent: story_SneeringToMe_situation
+  - action: action_story_SneeringToMe_situation
+  - intent: story_SneeringToMe_response1_1
+  - action: action_story_SneeringToMe_response1_1
+  - intent: story_SneeringToMe_response2_1
+  - action: action_story_SneeringToMe_response2_1
+
+
